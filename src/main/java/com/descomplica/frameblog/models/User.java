@@ -16,15 +16,16 @@ public class User {
     private Long userId;
     private String name;
     private String email;
+    private String username;
+    private String password;
     private RoleEnum role;
 
-    public User() {
-    }
-
-    public User(final Long userId, final String name, final String email, final RoleEnum role) {
+    public User(final Long userId, final String name, final String email, final String username, final String password, final RoleEnum role) {
         this.userId = userId;
         this.name = name;
         this.email = email;
+        this.username = username;
+        this.password = password;
         this.role = role;
     }
 
@@ -58,6 +59,22 @@ public class User {
 
     public void setRole(RoleEnum role) {
         this.role = role;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }
