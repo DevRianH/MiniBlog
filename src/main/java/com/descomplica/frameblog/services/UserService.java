@@ -1,6 +1,6 @@
 package com.descomplica.frameblog.services;
 
-import com.descomplica.frameblog.models.User;
+import com.descomplica.FrameBlog.models.User;
 import java.util.List;
 
 public interface UserService {

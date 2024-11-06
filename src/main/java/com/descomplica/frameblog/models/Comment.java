@@ -1,5 +1,6 @@
 package com.descomplica.frameblog.models;
 
+import com.descomplica.FrameBlog.models.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

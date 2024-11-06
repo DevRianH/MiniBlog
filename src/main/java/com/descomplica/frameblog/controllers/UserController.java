@@ -1,6 +1,6 @@
 package com.descomplica.frameblog.controllers;
 
-import com.descomplica.frameblog.models.User;
+import com.descomplica.FrameBlog.models.User;
 import com.descomplica.frameblog.services.UserService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
